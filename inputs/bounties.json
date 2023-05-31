@@ -1,0 +1,41 @@
+{
+  "component_name": "Bounty",
+  "description": "This component defines rules for a Bounty",
+  "variables": [
+    {
+      "name": "success_xp",
+      "type": "uint32",
+      "comment": "Amount of XP earned on successful completion of this Bounty"
+    },
+    {
+      "name": "lower_bound",
+      "type": "uint32",
+      "comment": "Lower bound of staked amount required for reward"
+    },
+    {
+        "name": "upper_bound",
+        "type": "uint32",
+        "comment": "Upper bound of staked amount required for reward"
+    },
+    {
+        "name": "bounty_time_lock",
+        "type": "uint32",
+        "comment": "Amount of time (in seconds) to complete this Bounty + NFTs are locked for"
+    },
+    {
+        "name": "group_id",
+        "type": "uint256",
+        "comment": "Bounty Group ID defined in the SoT,  ex: \"WOOD_BOUNTY\""
+    },
+    {
+        "name": "input_loot_set_entity",
+        "type": "uint256",
+        "comment": "Bounty Input Loot component namespace GUID defined in the SoT"
+    },
+    {
+        "name": "output_loot_set_entity",
+        "type": "uint256",
+        "comment": "Output Loot component GUID, unique namespace GUID defined in the SoT"
+    }
+  ]
+}

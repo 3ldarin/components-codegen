@@ -1,0 +1,19 @@
+{
+  "component_name": "ComponentHere",
+  "variables": [
+    {
+      "name": "variableName",
+      "type": "string",
+      "comment": "This is a comment for the variable"
+    },
+    {
+      "name": "commentLessVariable",
+      "type": "string"
+    },
+    {
+      "name": "commentWithTypescriptOverride",
+      "type": "uint32",
+      "typescript_type": "BigNumberish" 
+    }
+  ]
+}
